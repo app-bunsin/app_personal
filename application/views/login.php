@@ -68,7 +68,6 @@
 								<li><a href="#"><i class="icon-sync"></i></a></li>
 							</ul>
 						</div>
-
 						<ul class="media-list dropdown-content-body width-350">
 							<li class="media">
 								<div class="media-left">
@@ -894,18 +893,18 @@
 								<li>
 									<a href="#"><i class="icon-user-plus"></i> <span>Login &amp; registration</span></a>
 									<ul>
-										<li><a href="login_simple.html">Simple login</a></li>
-										<li><a href="login_advanced.html">More login info</a></li>
-										<li><a href="login_registration.html">Simple registration</a></li>
-										<li><a href="login_registration_advanced.html">More registration info</a></li>
-										<li><a href="login_unlock.html">Unlock user</a></li>
-										<li><a href="login_password_recover.html">Reset password</a></li>
-										<li><a href="login_hide_navbar.html">Hide navbar</a></li>
-										<li><a href="login_transparent.html">Transparent box</a></li>
-										<li><a href="login_background.html">Background option</a></li>
-										<li><a href="login_validation.html">With validation</a></li>
-										<li><a href="login_tabbed.html">Tabbed form</a></li>
-										<li><a href="login_modals.html">Inside modals</a></li>
+										<li><a href="Template/layout_1/LTR/default/login_simple.html">Simple login</a></li>
+										<li><a href="Template/layout_1/LTR/default/login_advanced.html">More login info</a></li>
+										<li><a href="Template/layout_1/LTR/default/login_registration.html">Simple registration</a></li>
+										<li><a href="Template/layout_1/LTR/default/login_registration_advanced.html">More registration info</a></li>
+										<li><a href="Template/layout_1/LTR/default/login_unlock.html">Unlock user</a></li>
+										<li><a href="Template/layout_1/LTR/default/login_password_recover.html">Reset password</a></li>
+										<li><a href="Template/layout_1/LTR/default/login_hide_navbar.html">Hide navbar</a></li>
+										<li><a href="Template/layout_1/LTR/default/login_transparent.html">Transparent box</a></li>
+										<li><a href="Template/layout_1/LTR/default/login_background.html">Background option</a></li>
+										<li><a href="Template/layout_1/LTR/default/login_validation.html">With validation</a></li>
+										<li><a href="Template/layout_1/LTR/default/login_tabbed.html">Tabbed form</a></li>
+										<li><a href="Template/layout_1/LTR/default/login_modals.html">Inside modals</a></li>
 									</ul>
 								</li>
 								<li>
@@ -1176,7 +1175,6 @@
 					                	</ul>
 				                	</div>
 								</div>
-
 								<div class="table-responsive">
 									<table class="table table-lg text-nowrap">
 										<tbody>
