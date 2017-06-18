@@ -1,6 +1,6 @@
 <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="navbar-header">
-    <a class="navbar-brand" href="Template/layout_1/LTR/default/index.html"><img src="Template/layout_1/LTR/default/assets/images/logo_light.png" alt=""></a>
+    <a class="navbar-brand" href="Template/layout_1/LTR/default/index.html"><img src="assets/images/logo_light.png" alt=""></a>
 
     <ul class="nav navbar-nav visible-xs-block">
       <li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-tree5"></i></a></li>
@@ -95,17 +95,17 @@
     <ul class="nav navbar-nav navbar-right">
       <li class="dropdown language-switch">
         <a class="dropdown-toggle" data-toggle="dropdown">
-          <img src="Template/layout_1/LTR/default/assets/images/flags/gb.png" class="position-left" alt="">
+          <img src="assets/images/flags/gb.png" class="position-left" alt="">
           English
           <span class="caret"></span>
         </a>
 
         <ul class="dropdown-menu">
-          <li><a class="deutsch"><img src="Template/layout_1/LTR/default/assets/images/flags/de.png" alt=""> Deutsch</a></li>
-          <li><a class="ukrainian"><img src="Template/layout_1/LTR/default/assets/images/flags/ua.png" alt=""> Українська</a></li>
-          <li><a class="english"><img src="Template/layout_1/LTR/default/assets/images/flags/gb.png" alt=""> English</a></li>
-          <li><a class="espana"><img src="Template/layout_1/LTR/default/assets/images/flags/es.png" alt=""> España</a></li>
-          <li><a class="russian"><img src="Template/layout_1/LTR/default/assets/images/flags/ru.png" alt=""> Русский</a></li>
+          <li><a class="deutsch"><img src="assets/images/flags/de.png" alt=""> Deutsch</a></li>
+          <li><a class="ukrainian"><img src="assets/images/flags/ua.png" alt=""> Українська</a></li>
+          <li><a class="english"><img src="assets/images/flags/gb.png" alt=""> English</a></li>
+          <li><a class="espana"><img src="assets/images/flags/es.png" alt=""> España</a></li>
+          <li><a class="russian"><img src="assets/images/flags/ru.png" alt=""> Русский</a></li>
         </ul>
       </li>
 
@@ -127,7 +127,7 @@
           <ul class="media-list dropdown-content-body">
             <li class="media">
               <div class="media-left">
-                <img src="Template/layout_1/LTR/default/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+                <img src="assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
                 <span class="badge bg-danger-400 media-badge">5</span>
               </div>
 
@@ -143,7 +143,7 @@
 
             <li class="media">
               <div class="media-left">
-                <img src="Template/layout_1/LTR/default/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+                <img src="assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
                 <span class="badge bg-danger-400 media-badge">4</span>
               </div>
 
@@ -158,7 +158,7 @@
             </li>
 
             <li class="media">
-              <div class="media-left"><img src="Template/layout_1/LTR/default/assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></div>
+              <div class="media-left"><img src="assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></div>
               <div class="media-body">
                 <a href="#" class="media-heading">
                   <span class="text-semibold">Jeremy Victorino</span>
@@ -170,7 +170,7 @@
             </li>
 
             <li class="media">
-              <div class="media-left"><img src="Template/layout_1/LTR/default/assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></div>
+              <div class="media-left"><img src="assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></div>
               <div class="media-body">
                 <a href="#" class="media-heading">
                   <span class="text-semibold">Beatrix Diaz</span>
@@ -182,7 +182,7 @@
             </li>
 
             <li class="media">
-              <div class="media-left"><img src="Template/layout_1/LTR/default/assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></div>
+              <div class="media-left"><img src="assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></div>
               <div class="media-body">
                 <a href="#" class="media-heading">
                   <span class="text-semibold">Richard Vango</span>
@@ -202,7 +202,7 @@
 
       <li class="dropdown dropdown-user">
         <a class="dropdown-toggle" data-toggle="dropdown">
-          <img src="Template/layout_1/LTR/default/assets/images/placeholder.jpg" alt="">
+          <img src="assets/images/placeholder.jpg" alt="">
           <span>Victoria</span>
           <i class="caret"></i>
         </a>
@@ -233,7 +233,7 @@
         <div class="sidebar-user">
           <div class="category-content">
             <div class="media">
-              <a href="#" class="media-left"><img src="Template/layout_1/LTR/default/assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></a>
+              <a href="#" class="media-left"><img src="assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></a>
               <div class="media-body">
                 <span class="media-heading text-semibold">Victoria Baker</span>
                 <div class="text-size-mini text-muted">

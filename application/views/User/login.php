@@ -8,31 +8,31 @@
 
 	<!-- Global stylesheets -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
-	<link href="Template/layout_1/LTR/default/assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
-	<link href="Template/layout_1/LTR/default/assets/css/bootstrap.css" rel="stylesheet" type="text/css">
-	<link href="Template/layout_1/LTR/default/assets/css/core.css" rel="stylesheet" type="text/css">
-	<link href="Template/layout_1/LTR/default/assets/css/components.css" rel="stylesheet" type="text/css">
-	<link href="Template/layout_1/LTR/default/assets/css/colors.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/core.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/components.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/colors.css" rel="stylesheet" type="text/css">
 	<!-- /global stylesheets -->
 
 	<!-- Core JS files -->
-	<script type="text/javascript" src="Template/layout_1/LTR/default/assets/js/plugins/loaders/pace.min.js"></script>
-	<script type="text/javascript" src="Template/layout_1/LTR/default/assets/js/core/libraries/jquery.min.js"></script>
-	<script type="text/javascript" src="Template/layout_1/LTR/default/assets/js/core/libraries/bootstrap.min.js"></script>
-	<script type="text/javascript" src="Template/layout_1/LTR/default/assets/js/plugins/loaders/blockui.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/loaders/pace.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/loaders/blockui.min.js"></script>
 	<!-- /core JS files -->
 
 	<!-- Theme JS files -->
-	<script type="text/javascript" src="Template/layout_1/LTR/default/assets/js/plugins/visualization/d3/d3.min.js"></script>
-	<script type="text/javascript" src="Template/layout_1/LTR/default/assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
-	<script type="text/javascript" src="Template/layout_1/LTR/default/assets/js/plugins/forms/styling/switchery.min.js"></script>
-	<script type="text/javascript" src="Template/layout_1/LTR/default/assets/js/plugins/forms/styling/uniform.min.js"></script>
-	<script type="text/javascript" src="Template/layout_1/LTR/default/assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
-	<script type="text/javascript" src="Template/layout_1/LTR/default/assets/js/plugins/ui/moment/moment.min.js"></script>
-	<script type="text/javascript" src="Template/layout_1/LTR/default/assets/js/plugins/pickers/daterangepicker.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/visualization/d3/d3.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/forms/styling/switchery.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/forms/styling/uniform.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/ui/moment/moment.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/pickers/daterangepicker.js"></script>
 
-	<script type="text/javascript" src="Template/layout_1/LTR/default/assets/js/core/app.js"></script>
-	<script type="text/javascript" src="Template/layout_1/LTR/default/assets/js/pages/dashboard.js"></script>
+	<script type="text/javascript" src="assets/js/core/app.js"></script>
+	<script type="text/javascript" src="assets/js/pages/dashboard.js"></script>
 	<!-- /theme JS files -->
 
 </head>
@@ -88,23 +88,23 @@
 				<div class="content">
 
 					<!-- Simple login form -->
-					<form action="index.html">
+				<?php  echo form_open('users/check_user');?>
 						<div class="panel panel-body login-form">
 							<div class="text-center">
-								<div class=""><a class="navbar-brand" href="index.html"><img style="width:250px; height:100px;"src="Template/layout_1/LTR/default/assets/images/app_logo.png" alt=""></a></div>
+								<div class=""><a class="navbar-brand" href="index.html"><img style="width:250px; height:100px;"src="assets/images/app_logo.png" alt=""></a></div>
 								<br/><br/><br/><br/><br/><br/>
 								<!-- <h5 class="content-group">Login to your account <small class="display-block">Enter your credentials below</small></h5> -->
 							</div>
 
 							<div class="form-group has-feedback has-feedback-left">
-								<input type="text" class="form-control" placeholder="Username">
+								<input type="text" class="form-control" name="username" placeholder="Username">
 								<div class="form-control-feedback">
 									<i class="icon-user text-muted"></i>
 								</div>
 							</div>
 
 							<div class="form-group has-feedback has-feedback-left">
-								<input type="text" class="form-control" placeholder="Password">
+								<input type="text" name="password" class="form-control" placeholder="Password">
 								<div class="form-control-feedback">
 									<i class="icon-lock2 text-muted"></i>
 								</div>
