@@ -3,8 +3,10 @@
 
 
 <!-- Footer -->
-<div class="footer text-muted ">
-&nbsp &nbsp &nbsp  &copy; 2017. <a href="#">Bunsin App Personal</a> by <a href="http://themeforest.net/user/Kopyov" target="_blank">Bunsin Toeng</a>
+<div id="text-muted" class="footer text-muted ">
+    <div class="pull-right"> <b>Version</b> 1.1 </div>
+    <strong>Copyright &copy; 2017-2018 <a href="http://optimumlinkup.com.ng" target="_blank">Optimum Linkup</a></strong>
+    <div class='control-sidebar-bg'></div>
 </div>
 <!-- /footer -->
 

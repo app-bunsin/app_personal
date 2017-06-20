@@ -89,6 +89,7 @@
 
 					<!-- Simple login form -->
 				<?php  echo form_open('users/check_user');?>
+				<?php echo validation_errors(); ?>
 						<div class="panel panel-body login-form">
 							<div class="text-center">
 								<div class=""><a class="navbar-brand" href="index.html"><img style="width:250px; height:100px;"src="assets/images/app_logo.png" alt=""></a></div>
@@ -97,14 +98,15 @@
 							</div>
 
 							<div class="form-group has-feedback has-feedback-left">
-								<input type="text" class="form-control" name="username" placeholder="Username">
+								<?php echo form_error('username'); ?>
+								<input type="text" class="form-control"  name="username" placeholder="Username">
 								<div class="form-control-feedback">
 									<i class="icon-user text-muted"></i>
 								</div>
 							</div>
 
 							<div class="form-group has-feedback has-feedback-left">
-								<input type="text" name="password" class="form-control" placeholder="Password">
+								<input type="password" name="password" <?php echo validation_errors('<span class="error">','</span>'); ?> class="form-control" placeholder="Password">
 								<div class="form-control-feedback">
 									<i class="icon-lock2 text-muted"></i>
 								</div>

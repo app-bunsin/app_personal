@@ -30,12 +30,23 @@ class Users extends CI_Controller {
 
 			public function check_user()
 			{
-				$data = array(
-						$username= $this->input->post('username'),
-						$password = $this->input->post('password')
-				);
-					$result =$this->User_model->get_user($username,$password);
-						var_dump($result);exit();
-					redirect(base_url().'Main');
-			}
+				$this->form_validation->set_rules('username', 'Username', 'trim|required');
+        $this->form_validation->set_rules('password', 'Password', 'trim|required');
+				//echo $username;
+				if ($this->form_validation->run() == FALSE) {
+						 redirect('Users');
+				} else {
+					$username = $this->input->post('username');
+					$password = $this->input->post('password');
+					$result = $this->User_model->get_user($username,$password);
+					if($result == TRUE){
+						$this->session->set_userdata($data);
+						$this->session->set_flashdata('flashSuccess', 'This is a success message.');
+						redirect('Main');
+					}else{
+						 redirect('Users');
+					}
+
 		}
+	}
+}

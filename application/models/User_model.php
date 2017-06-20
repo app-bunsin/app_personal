@@ -12,14 +12,20 @@
         }
        function get_user($username,$password)
         {
+           //$condition = "username =" . "'" . $data['username'] . "' AND " . "password =" . "'" . $data['password'] . "'";
            $this->db->select('username','password');
            $this->db->from('users');
-           $this->db->where('username', $username);
-           $this->db->where('password', $password);
+           $this->db->where('username',$username);
+           $this->db->where('password',$password);
+           $this->db->limit(1);
            $query = $this->db->get();
-           return $query->result();
-
+           if ($query->num_rows() == 1) {
+             return true;
+           } else {
+             return false;
+           }
+           }
         }
-      }
+
 
 ?>
