@@ -21,7 +21,7 @@ class Main extends CI_Controller {
 	public function index()
 	{
     $this->load->view('partial/Header');
-		$this->load->view('partial/Content');
+		$this->load->view('partial/Menu');
 		$this->load->view('partial/Footer');
 	}
 }

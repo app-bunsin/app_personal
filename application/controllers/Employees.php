@@ -18,6 +18,7 @@
            $data['employees'] = $query;
          }
          $this->load->view('partial/Header');
+         $this->load->view('partial/Menu');
          $this->load->view('Employees/index', $data);
          $this->load->view('partial/Footer');
       }

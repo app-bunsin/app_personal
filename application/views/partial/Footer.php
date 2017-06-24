@@ -1,6 +1,3 @@
-</div>
-<!-- /dashboard content -->
-
 
 <!-- Footer -->
 <div id="text-muted" class="footer text-muted ">

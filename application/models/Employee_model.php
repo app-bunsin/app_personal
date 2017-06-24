@@ -7,7 +7,10 @@
     {
         function get_employees()
       {
-        $query = $this->db->select('*')->from('tbl_employees')->get();
+        $this->db->select('*');
+        $this->db->from('tbl_employees');
+        $this->db->join('tbl_provinces','emp_id = tbl_provinces_pro_id' );
+        $query = $this->db->get();
         return $query->num_rows() > 0 ? $query->result() : NULL;
       }
     }
