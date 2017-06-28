@@ -8,31 +8,41 @@
 
 	<!-- Global stylesheets -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
-	<link href="assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
-	<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
-	<link href="assets/css/core.css" rel="stylesheet" type="text/css">
-	<link href="assets/css/components.css" rel="stylesheet" type="text/css">
-	<link href="assets/css/colors.css" rel="stylesheet" type="text/css">
-	<!-- /global stylesheets -->
+  <link href="<?php echo base_url()?>assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+  <link href="<?php echo base_url()?>assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="<?php echo base_url()?>assets/css/style.css" rel="stylesheet" type="text/css">
+  <link href="<?php echo base_url()?>assets/css/core.css" rel="stylesheet" type="text/css">
+  <link href="<?php echo base_url()?>assets/css/components.css" rel="stylesheet" type="text/css">
+  <link href="<?php echo base_url()?>assets/css/colors.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.13/datatables.min.css"/>
 
-	<!-- Core JS files -->
-	<script type="text/javascript" src="assets/js/plugins/loaders/pace.min.js"></script>
-	<script type="text/javascript" src="assets/js/core/libraries/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/js/core/libraries/bootstrap.min.js"></script>
-	<script type="text/javascript" src="assets/js/plugins/loaders/blockui.min.js"></script>
-	<!-- /core JS files -->
+  <!-- /global stylesheets -->
+  <!-- Core JS files -->
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/core/libraries/jquery.min.js"></script>
+  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+  <!-- <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.13/datatables.min.js"></script> -->
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/core/libraries/jquery.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/core/libraries/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.13/datatables.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/plugins/loaders/pace.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/plugins/loaders/blockui.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.min.js"></script>
 
-	<!-- Theme JS files -->
-	<script type="text/javascript" src="assets/js/plugins/visualization/d3/d3.min.js"></script>
-	<script type="text/javascript" src="assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
-	<script type="text/javascript" src="assets/js/plugins/forms/styling/switchery.min.js"></script>
-	<script type="text/javascript" src="assets/js/plugins/forms/styling/uniform.min.js"></script>
-	<script type="text/javascript" src="assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
-	<script type="text/javascript" src="assets/js/plugins/ui/moment/moment.min.js"></script>
-	<script type="text/javascript" src="assets/js/plugins/pickers/daterangepicker.js"></script>
+  <!-- /core JS files -->
 
-	<script type="text/javascript" src="assets/js/core/app.js"></script>
-	<script type="text/javascript" src="assets/js/pages/dashboard.js"></script>
+  <!-- Theme JS files -->
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/plugins/visualization/d3/d3.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/plugins/forms/styling/switchery.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/plugins/forms/styling/uniform.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/plugins/ui/moment/moment.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/plugins/pickers/daterangepicker.js"></script>
+
+  <!-- <script type="text/javascript" src="https://cdn.datatables.net/autofill/2.2.0/js/dataTables.autoFill.min.js"></script> -->
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/core/app.js"></script>
+  <script type="text/javascript" src="<?php echo base_url()?>assets/js/pages/dashboard.js"></script>
 	<!-- /theme JS files -->
 
 </head>
@@ -89,16 +99,14 @@
 
 					<!-- Simple login form -->
 				<?php  echo form_open('users/check_user');?>
-				<?php echo validation_errors(); ?>
 						<div class="panel panel-body login-form">
 							<div class="text-center">
-								<div class=""><a class="navbar-brand" href="index.html"><img style="width:250px; height:100px;"src="assets/images/app_logo.png" alt=""></a></div>
+								<div class=""><a class="navbar-brand" href="index.html"><img style="width:250px; height:80px;"src="assets/images/app_logo.png" alt=""></a></div>
 								<br/><br/><br/><br/><br/><br/>
 								<!-- <h5 class="content-group">Login to your account <small class="display-block">Enter your credentials below</small></h5> -->
 							</div>
 
 							<div class="form-group has-feedback has-feedback-left">
-								<?php echo form_error('username'); ?>
 								<input type="text" class="form-control"  name="username" placeholder="Username">
 								<div class="form-control-feedback">
 									<i class="icon-user text-muted"></i>
@@ -106,7 +114,7 @@
 							</div>
 
 							<div class="form-group has-feedback has-feedback-left">
-								<input type="password" name="password" <?php echo validation_errors('<span class="error">','</span>'); ?> class="form-control" placeholder="Password">
+								<input type="password" name="password"  class="form-control" placeholder="Password">
 								<div class="form-control-feedback">
 									<i class="icon-lock2 text-muted"></i>
 								</div>

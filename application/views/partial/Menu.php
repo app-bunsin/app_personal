@@ -235,9 +235,10 @@
               <a href="#" class="media-left"><img src="<?php echo base_url()?>assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></a>
               <div class="media-body">
                 <span class="media-heading text-semibold">Victoria Baker</span>
-                <div class="text-size-mini text-muted">
                   <i class="icon-pin text-size-small"></i> &nbsp;Santa Ana, CA
-                </div>
+                <!-- <div class="text-size-mini text-muted">
+
+                </div> -->
               </div>
 
               <div class="media-right media-middle">
@@ -257,15 +258,16 @@
             <ul class="navigation navigation-main navigation-accordion">
               <!-- Main -->
               <li class="navigation-header"><span>Main</span> <i class="icon-menu" title="Main pages"></i></li>
-              <li class="active"><a href="index.html"><i class="icon-home4"></i> <span>Dashboard</span></a></li>
-              <li class=""><a href="Employees/get_employees"><i class="icon-person"></i><span>Employees</span></a></li>
+              <li class=""><a href="#"><i class="icon-home4"></i> <span>Dashboard</span></a></li>
+              <li>
+                <a href="Employees/get_employees"><i class="icon-person"></i><span>Employees</span></a>
 
+              </li>
               <li>
                 <a href="#"><i class="icon-stack"></i> <span>Starter kit</span></a>
                 <ul>
-                  <li><a href="starters/1_col.html">1 column</a></li>
-                  <li><a href="starters/2_col.html">2 columns</a></li>
-
+                  <li><a href="#">1 column</a></li>
+                  <li><a href="#">2 columns</a></li>
                 </ul>
               </li>
               <li><a href="changelog.html"><i class="icon-list-unordered"></i> <span>Changelog <span class="label bg-blue-400">1.4</span></span></a></li>

@@ -22,5 +22,16 @@
          $this->load->view('Employees/index', $data);
          $this->load->view('partial/Footer');
       }
+      public function insert_employees()
+      {
+            // $data = array(
+            //     'book_isbn' => $this->input->post('book_isbn'),
+            //     'book_title' => $this->input->post('book_title'),
+            //     'book_author' => $this->input->post('book_author'),
+            //     'book_category' => $this->input->post('book_category'),
+            //   );
+            // $insert = $this->book_model->book_add($data);
+            // echo json_encode(array("status" => TRUE));
+      }
     }
  ?>
